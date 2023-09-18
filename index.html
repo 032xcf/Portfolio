@@ -1,278 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="assets/css/styles.css" />
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-    <!-- =====BOX ICONS===== -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link rel="icon" href="coderr.ico" />
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-    <title>Portfolio</title>
-  </head>
-  <body>
-    <!--===== HEADER =====-->
-    <header class="l-header">
-      <nav class="nav bd-grid">
-        <div>
-          <a href="#" class="nav__logo" >Akshit Dobriyal</a>
-        </div>
+        <title>Portfolio website complete</title>
+        <link rel="icon" href="coderr.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="coderr.ico" type="image/x-icon">
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Akshit</a>
+                </div>
 
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="#home" class="nav__link active">Home</a>
-            </li>
-            <li class="nav__item">
-              <a href="#about" class="nav__link">About</a>
-            </li>
-            <li class="nav__item">
-              <a href="#skills" class="nav__link">Skills</a>
-            </li>
-            <li class="nav__item">
-              <a href="#team" class="nav__link">Team</a>
-            </li>
-            <li class="nav__item">
-              <a href="#contact" class="nav__link">Contact</a>
-            </li>
-            <!--<li class="nav__item"><a href="https://github.com/divyanshudhruv" class="home__social-icon"><i class='bx bx-moon bx-tada' ></i></a></li>-->
-          </ul>
-        </div>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
 
-        <div class="nav__toggle" id="nav-toggle">
-          <i class="bx bx-menu"></i>
-        </div>
-      </nav>
-    </header>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
 
-    <main class="l-main">
-      <!--===== HOME =====-->
-      <section class="home bd-grid" id="home">
-        <div class="home__data">
-          <h1 class="home__title">
-            Hi,<br />I'am <span class="home__title-color" onclick="Swal.fire(
-              'Hey!',
-              'Congrats U Found A Easter Egg!',
-              'success',
-            )">Akshit</span><br/>
-            Web Developer
-          </h1>
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Akshit</span><br> A Web Designer</h1>
 
-          <a href="#contact" class="button">Contact</a>
-        </div>
-        <div class="home__social">
-          <a href="https://github.com/akgod-7" class="home__social-icon" target="blank"
-            ><i class="bx bxl-github"></i
-          ></a>
-        </div>
+                    <a href="#" class="button">Contact</a>
+                </div>
 
-        <div class="home__img">
-          <svg
-            class="home__blob"
-            viewBox="0 0 479 467"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-          >
-            <mask id="mask0" mask-type="alpha">
-              <path
-                d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
-              />
-            </mask>
-            <g mask="url(#mask0)">
-              <path
-                d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
-              />
-              <image
-                class="home__blob-img"
-                x="50"
-                y="119"
-                href="assets/img/avatar (4).svg"
-                
-              />
-            </g>
-          </svg>
-        </div>
-      </section>
+                <div class="home__social">
+                    <a href="https://github.com/akgod-7" class="home__social-icon"><i class='bx bxl-github'></i></a>
+                </div>
 
-      <!--===== ABOUT =====-->
-      <section class="about section" id="about">
-        <h2 class="section-title"><b>About</b></h2>
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/avatar (1).svg"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
 
-        <div class="about__container bd-grid">
-          <div class="about__img">
-            <img src="assets/img/avatar (3).svg" alt="" onclick="Swal.fire(
-              'Looking Nice?',
-              'Congrats U Found A Easter Egg!',
-              'success',
-            )"/>
-          </div>
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
 
-          <div>
-            <h2 class="about__subtitle">I'am Akshit Dobriyal</h2>
-            <p class="about__text">
-              A Innovative Student And Coder Who Loves HTML, CSS, JavaScript And
-              Dabbling With Java & Python Once In A While.<br /><br />
-          </div>
-        </div>
-      </section>
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/avatar (4).svg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I am Akshit</h2>
+                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                    </div>                                   
+                </div>
+            </section>
 
-      <!--===== SKILLS =====-->
-      <section class="skills section" id="skills">
-        <h2 class="section-title"><b>Skills</b></h2>
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
 
-        <div class="skills__container bd-grid">
-          <div>
-            <h2 class="skills__subtitle">Profesional Skills</h2>
-            <p class="skills__text">
-              Here Are Some Of My Programming Skills Progress That I Have
-              Achieved!
-            </p>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-html5 skills__icon"></i>
-                <span class="skills__name">HTML5</span>
-              </div>
-              <div class="skills__bar skills__html"></div>
-              <div>
-                <span class="skills__percentage">95%</span>
-              </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-css3 skills__icon"></i>
-                <span class="skills__name">CSS3</span>
-              </div>
-              <div class="skills__bar skills__css"></div>
-              <div>
-                <span class="skills__percentage">85%</span>
-              </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-javascript skills__icon"></i>
-                <span class="skills__name">JAVASCRIPT</span>
-              </div>
-              <div class="skills__bar skills__js"></div>
-              <div>
-                <span class="skills__percentage">50%</span>
-              </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxs-paint skills__icon"></i>
-                <span class="skills__name">UX/UI</span>
-              </div>
-              <div class="skills__bar skills__ux"></div>
-              <div>
-                <span class="skills__percentage">70%</span>
-              </div>
-            </div>
-          </div>
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAuZJREFUSEuVl92N20AMhD+qijwEsN1HgNiVnK8Snys5p5LYb+nCyluqMA/cH2lX4kqKgIN18mpJDmdmaWF6CaDpYbgvH8xWOw+c9c4+9qiMAq1gjZdjXrNsVzOMgVtVLlYsCBrAUdgL9DFaC6H0vPhwAtcJr4GtyFHQezNmoyGbYMlt9xYrXIBfY9Ve++ouil9NiyB+jgpPgUMVboWYc3Kt1D+mFO8UfoPcBb1Wr5aBHQJur9hJKAQVEOWUvzaiddAvtcZArwJPq5l0amCsCnuUz8Bh4aTKXuFN4CFwL3Nc4vhUyb7C0qpXlM4T5Nah7y/hiMqlQ09elb7CTYpu2Fajg3KfCL2onBQ9A5eSWK4teHJa02j5jsKRQCYOgvSK2v1dkOvEZ2s3TBiGtCsDcRzHS8iIY9LpoiSN0U+iY72XhNpioHNWr0AQzEJ4iHJ/RZg/QD469FqdLRtkuepcJSBWderre6haeKLS++RKfp50nL0982Bb4GJVCn7s4PYCI9iug6HiliyqFqw4W9gjB0oOlU6hmInCWeA2QcVI+DMYxdTRCtq5FefsNNLVTGG0xDkPDP5AOVG5hVcEVOUJevIOj0LHntjs5cBkM409yG4im7+R1aGywbEmSR9E6IepZrnimhTpMGgcfQPkxTAQ0jNLtaOyPqfnOq4rLtEMPRY+0cDofFmv7X/7s/vQDoPV+h6NJU8lsQ9zA9kyraQ1iWjDgTHv3zaRLPe4ltAZ5E1RqypfhoThuhsnkHEWW2LtYuBUnZGr74ReNYw4JpUMuX0axAZ17Gd1tc2zGTjNUUaY4FDN/UoBF4xNxjLp87iLGzjbYqrOVhszH+aPNuxEg5cetITa1pm8DHZbc01SxA6QIWRmdWvqKCtU+AF8B/4lTZdf26bfgD+xBbIftU4/hz++WlXcss/c67RpllEOvisG80fa1Jmxa+kk1Ka/l7ZJou7Y/xyKVcWFpUSr3fZ7zSHuypEe8v0Cjl1AMh3cqXEAAAAASUVORK5CYII="/>
+                                <span class="skills__name">Java</span>
+                            </div>
+                            <div class="skills__bar skills__java">
 
-          <div>
-            <img src="assets/img/work3.jpg" alt="" class="skills__img" />
-          </div>
-        </div>
-      </section>
+                            </div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAuBJREFUSEuVV+uZ2kAMHDnp40whR0wlOSohVAJXCb7j+ojTx2Hlk1a2tS8D+wewd3ek0egBEQCGrOWb/pxX7fkTe+wK/XDf65ixBau/HjY7AjaPCWzeP+sN4dmzgl9cCy0JT93Y2oHpc0BPw7N0RMCr0ey4ww0HELpIDnqIBxD1IBxTI6ohyF6UdgroiAsIZ7ACtxKTwtYBDXbU0xAEuy7Z+G3Jku14APAHn0TouMWIvym1c2hG7HGl8z1dkpd4Nd5bPrAAM4ROia3Gt0gjx8C1dM3FVaNa4pu72U2P5mOMPV3pHNWGwp0VVRPQjSKmsmdyq5wknDJjxGPCS2CGQURH9qrP89hd8TpeQFRQr9HrPUi9CcCifhUgABWcqN2naIix19+WxYu3rISsgekNRt4EbDrQe0b0+Gp2ilTyWJ9tWRQ7FYcVcTowv6vBRlPPC5Aw4IM2kcfRzWmqVLM/0JS9FtX/wL6UbhCDXKxjcU2FIvHTpdwAQp8pWYhmDNzgHTecitWNtLD0vrAsMBVgzd8r7SCFhKkLIU2onvO7GgIRmBktTcUvR3VEo9D0jRMa7kIfWlsGnMahwSYtpXGO/OK8Nwal5jk743svKx5LuXUrLyCWTs7gAYxjAK5cWgx6JECp88d14ED3hYDWKHXANYo9vYlxoo8v2s0zj11RLpkCftP29wLmfxqLBidwEj8JQY0Eef4TMiRIY5mq1Gx5pVY7s+SCV34LwN5jRZwnj6VJ8JGujTUJL58YPQCvlkMDNnG5nHZW2AQipZa1b0fxDBsTYF+rdWAr3SweZ8COY2kC0gy0VPIZn00BONbHY1Sb4ABu1fI8ZhPlrY0+VqFq0+fcUh7ge6eC+02MjmXgi9dAhJ4J7+ibPlNSmkdW51frUHHAEQam9UGSbo6EXET+30P8TyKDdk0zGhfrKvQtb2ld96guS7XIRK1TLpsN7E6muAmkMNb4NLiXcrNM7psmW/8DJXRmMQEUZVoAAAAASUVORK5CYII="/>
+                                <span class="skills__name">Python</span>
+                            </div>
+                            <div class="skills__bar skills__python">
 
-        <h2 class="section-title" id="team"><b>Team</b></h2>
-        <br />
-        <section class="card">
-          <div class="card__circle card__circle1"></div>
-          <div class="card__circle card__circle2"></div>
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
 
-          <div class="card__container bd-container">
-            <div class="card__glass">
-              <img src="assets/img/Coder.jpg" alt="" class="card__img" />
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">UX/UI</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
 
-              <div class="card__data">
-                <h3 class="card__title">Akshit Dobriyal</h3>
-                <span class="card__profession">Web Developer</span>
-              </div>
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
 
-              <div class="card__social">
-                <a href="https://github.com/akgod-7" class="card__link" target="blank"
+                <div class="contact__container bd-grid">
+                    <form action="https://formspree.io/f/mknlrnwz" method="POST" class="contact__form">
+                        <input type="text" name="Name" placeholder="Name" class="contact__input">
+                        <input type="text" name="Email" placeholder="Email" class="contact__input" required>
+                        <textarea name="Message" id="" cols="0" rows="10" class="contact__input" placeholder="Message"></textarea>
+                        <input type="submit" value="Submit" class="contact__button button">
+                    </form>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Akshit</p>
+            <div class="footer__social">
+                <a
+                  href="https://github.com/akgod-7"
+                  class="footer__icon"
+                  target="blank"
                   ><i class="bx bxl-github"></i
                 ></a>
+                <a href="https://codepen.io" class="footer__icon" target="blank"><i class="bx bxl-codepen"></i></a>
               </div>
-            </div>
-            <div class="card__glass">
-              <img
-                src="assets/img/cortana.png"
-                alt=""
-                class="card__img"
-                style="background-size: cover"
-              />
+            <p class="footer__copy">&#169; Akshit. All rigths reserved</p>
+        </footer>
 
-              <div class="card__data">
-                <h3 class="card__title">Want To Collab?</h3>
-                <span class="card__profession"
-                  >Just Find Some Issue Or Bugs In The Website</span
-                >
-              </div>
 
-              <div class="card__social">
-                <a href="https://github.com/akgod-7" target="blank" class="card__link"><i class="bx bxl-github"></i></a>
-              </div>
-            </div>
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
 
-            <div class="card__glass">
-              <img
-                src="https://avatars.githubusercontent.com/u/61248995?v=4"
-                alt=""
-                class="card__img"
-              />
-
-              <div class="card__data">
-                <h3 class="card__title">Bedimcode</h3>
-                <span class="card__profession">UX/UI Design</span>
-              </div>
-
-              <div class="card__social">
-                <a href="https://github.com/Bedimcode" target="blank" class="card__link"><i class="bx bxl-github"></i></a>
-                <a href="https://youtube.com/c/Bedimcode" class="card__link" target="blank"
-                  ><i class="bx bxl-youtube"></i
-                ></a>
-                <a href="https://www.google.com/search?q=Bedimcode" target="blank" class="card__link"><i class="bx bxl-google"></i></a>
-              </div>
-            </div>
-          </div>
-        </section>
-      </section>
-      <!--===== CONTACT =====-->
-      <section class="contact section" id="contact">
-        <h2 class="section-title"><b>Contact</b></h2>
-
-        <h1 align="center">Email: alt.akgod7@gmail.com</h1>
-        <br>
-        <h1 align="center">Github: www.github.com/akgod-7</h1>
-        <br>
-
-    <!--===== FOOTER =====-->
-    <footer class="footer">
-      <p class="footer__title">< Pro Coder ></p>
-      <div class="footer__social">
-        <a
-          href="https://github.com/akgod-7"
-          class="footer__icon"
-          target="blank"
-          ><i class="bx bxl-github"></i
-        ></a>
-        <a href="https://codepen.io" class="footer__icon" target="blank"><i class="bx bxl-codepen"></i></a>
-      </div>
-      <p class="footer__copy">Template Designed By <b>Bedimcode</b></p>
-    </footer>
-
-    <!--===== SCROLL REVEAL =====-->
-    <script src="https://unpkg.com/scrollreveal"></script>
-
-    <!--===== MAIN JS =====-->
-    <script src="assets/js/main.js"></script>
-  </body>
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
